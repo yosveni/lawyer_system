@@ -1,0 +1,69 @@
+#### .gitignore
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de configuración sensibles
+.env
+.venv
+*.env
+.env.*
+!.env.example
+
+# Archivos de Docker
+docker-compose.override.yml
+*.log
+docker-compose.yml.bak
+*.dockerignore
+
+# Volúmenes y datos de base de datos
+pgdata/
+postgres-data/
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales y de sistema
+*.swp
+*.swo
+*.tmp
+*.bak
+*.backup
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+logs/
+*.log.*
+
+# Archivos de cobertura de pruebas
+coverage/
+.coverage
+coverage.xml
+htmlcov/
+
+# Archivos de dependencias locales
+pip-wheel-metadata/
+*.whl
+*.tar.gz
+
+# Archivos generados por pruebas
+tests/output/
+tests/temp/
+```
